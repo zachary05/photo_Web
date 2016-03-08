@@ -1,0 +1,151 @@
+html,body{
+  font-family: "Helvetica";
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.background{
+  background-color: rgb(8, 8, 8);
+  width: 100%;
+  height: 100%;
+}
+.header {
+  position: relative;
+  width: 100%;
+  height: 230px;
+}
+.logo{
+  position: absolute;
+  top: 80px;
+  width: 30px;
+  height: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: rgb(237, 237, 237);
+  opacity: 0.8;
+  transition: 0.25s;
+}
+.logo:hover{
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.25s;
+}
+.logo1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  background-color:rgb(127, 199, 235)
+}
+.logo2{
+  position: absolute;
+  top: 0;
+  left:15px;
+  width: 15px;
+  height:15px;
+  background-color:rgb(47, 165, 223)
+}
+.logo3{
+  position: absolute;
+  top: 15px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: rgb(12, 47, 153);
+}
+.logo4{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(12, 27, 89);
+}
+.slogan{
+  position: absolute;
+  top: 160px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: auto;
+  height: auto;
+  color: rgb(225, 236, 240);
+  font-weight: 100;
+  font-size: .9rem;
+  letter-spacing: 2.5px;
+  text-align: center;
+}
+.container{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.photo{
+  width: 33.333%;
+  height: 250px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  float: left;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.85);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.content:hover {
+  opacity: 1;
+}
+.content a {
+  width: 120px;
+  height: 40px;
+
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  text-align: center;
+
+  font-size: 0.8rem;
+  font-weight: 100;
+
+  line-height: 40px;
+  transition: all 0.3s;
+}
+.content a:hover {
+  color: #000;
+  background-color: #FFF;
+  border-color: #FFF;
+}
+
+.footer {
+  padding-top: 30px;
+  padding-left: 60px;
+  margin-top: 15px;
+
+  font-weight: 100;
+  font-size: 0.7rem;
+  background-color: #000;
+}
+.footer-item {
+  color: rgba(255, 255, 255, 0.65);
+  margin-right: 20px;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+.footer-item:hover {
+  color: #FFF;
+}
